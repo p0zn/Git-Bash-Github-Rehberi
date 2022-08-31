@@ -446,7 +446,7 @@ Ve artık dallarımız master dalında birleştirilmiş oldu.
 ![N|project_branchfilemerge5](https://i.ibb.co/pvy3hbG/workmer1.png)
 
 Subbranch üzerindeki dosyamız bu dizinde yok. 
-
+ 
 Yapmamız gereken tek şey : 
 
 ```sh
