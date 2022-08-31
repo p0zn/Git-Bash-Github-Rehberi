@@ -404,7 +404,7 @@ branch adı verilir ve "Create branch" butonuna basılarak branch oluşturulur.
 
 Şimdi subbranch üzerinde dosyamızı kontrol edelim : 
 
-![N|project_branchfilecheck](https://i.ibb.co/C2jR15v/sub-zerinde-dosya.png)
+![N|project_branchfilecheck](https://camo.githubusercontent.com/dbc6df3898154a78f9bb6445ea139d2c0ac8fe35567c7d6a9b5fb8e7f30e5bf5/68747470733a2f2f692e6962622e636f2f43326a523135762f7375622d7a6572696e64652d646f7379612e706e67)
 
 Gördüğünüz gibi oluşturduğumuz "file_4.txt" dosyası subbranch e eklenmiş. Peki bu dosya master dalında bulunuyor mu kontrol edelim : 
 
