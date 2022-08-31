@@ -95,7 +95,7 @@ git log
 
 komutunu kullanırız. Komut çıktısında ekleme tarihi, mesaj, kim tarafından eklendiği ve hash gibi bilgiler mevcuttur. 
 
-![N|project_inf](https://i.im.ge/2022/08/31/OEqmdf.git-repoya-ekleme.png)
+![N|project_inf](https://i.ibb.co/gVdxZyT/git-repoya-ekleme.png)
 
 #### 4.4 - Proje Üzerindeki Değişiklikleri Gösterme :
 
@@ -111,13 +111,13 @@ Proje dosyamıza yeni dosyalar eklendiğinde **git status** komutu çıktı olar
 Projeye eklediğimiz yeni dosyaları **add** komutu ile ilk önce geçiş bölgesine daha sonra **commit** komutu ile git deposuna aktarıyoruz. Tekrar **git status** komutunu çalıştırınca commit edilecek dosya olmadığını görüyoruz. 
 **add** komutu "." ile kullanıldığında proje içindeki tüm dosyaları, spesifik olarak dosya adı verilince sadece verilen dosyayı geçiş bölgesine geçirir.
 
-![N|project_afternew](https://i.im.ge/2022/08/31/OEsLzJ.dosya-sonrasi-commit.png)
+![N|project_afternew](https://i.ibb.co/GJ1QBZ2/dosya-sonras-commit.png)
 
 #### 4.5 - Proje Üzerinde Değişiklik Yapma :
 
 Proje geliştirme sürecinde dosyalarımız üzerinde değişiklik yapmamız gerekebilir. Örneğin projeye eklediğimiz hello.py dosyası içerisinde bir kaç değişiklik yapalım ve git status ile tekrar kontrol edelim. 
 
-![N|project_mdf1](https://i.im.ge/2022/08/31/OEaalD.proje-degisiklik-1.png)
+![N|project_mdf1](https://i.ibb.co/nz3BgBN/proje-de-i-iklik-1.png)
 
 **git status** komutunu çalıştırdıktan sonra hello.py nin kırmızı bir şekilde modified olarak işaretlendiğini görüyoruz. Bu bize hello.py nin en son commit edildikten sonra içeriğinin değiştirildiği anlamına gelmektedir. 
 
@@ -246,7 +246,7 @@ git restore hello.py
 
 Bu şekilde "Staging Area" ya gönderilmiş dosyamızı "Working Directory" e bildirmiş olup, dosyamızı kurtarmış oluyoruz. 
 
-![N|project_restore_stagingarea](https://i.im.ge/2022/08/31/OEi2LS.sttaged-restore.png)
+![N|project_restore_stagingarea](https://i.ibb.co/VJMc9tL/sttaged-restore.png)
 
 #### 4.11 - Versiyon Değiştirme :
 
@@ -261,11 +261,11 @@ version 1.0 --> version 2.0 --> version 3.0 --> version 2.0-copy
 Öncelikle yeni bir git projesi oluşturalım ve içerisine 3 tane dosya açalım. 
 İlk versiyonumuza ait dosya içerisine bilgiler girelim. 
 
-![N|project_ver1](https://i.im.ge/2022/08/31/OE0Moh.ver1.png)
+![N|project_ver1](https://i.ibb.co/Tcz6JtT/ver1.png)
 
 Daha sonra değişikleri commit edelim ve **git log** ile versiyonlarımızı kontrol edelim. 
 
-![N|project_ver2](https://i.im.ge/2022/08/31/OE0OOp.ver2.png)
+![N|project_ver2](https://i.ibb.co/nrJbrXb/ver2.png)
 
 
 **git log** komutu ile version 1.0 ı görmüş olduk. Şimdi 2 version daha alalım ve senaryomuzu gerçekleştirelim. 
@@ -274,7 +274,7 @@ Daha sonra değişikleri commit edelim ve **git log** ile versiyonlarımızı ko
 
 **git log** komutunu kullanarak versiyonlarımızı kontrol edelim. 
 
-![N|project_ver4](https://i.im.ge/2022/08/31/OE0Naz.ver-4.png)
+![N|project_ver4](https://i.ibb.co/S5CpYts/ver-4.png)
 
 Görüldüğü gibi artık 3 adet versiyonumuz var. Güncel versiyon en üstte ilk versiyon ise en altta yazmakta(yukarıda belirtilen versiyon hiyerarşisindeki gibi). 
 
@@ -330,7 +330,7 @@ git push -u gitlessRepo master
 
 komutunu kullanarak dosyalarımızı github repository imize yüklüyoruz. "-u" parametresi tüm dosyalar anlamına gelmektedir. "-u" parametresinden sonra bağlantı ismimizi ve proje dalımızı yazıyoruz(**master anadaldır.** Dallara ileride değineceğiz).
 
-![N|project_gitrepopush](https://i.im.ge/2022/08/31/OEtpgq.github-push-step.png)
+![N|project_gitrepopush](https://i.ibb.co/Yt7Gvdq/github-push-step.png)
 
 Bu şekilde dosyalarımızı github repository imize yüklemiş oluyoruz. Dosya üzerinde herhangi bir değişiklik yapınca yeniden push etmeyi unutmuyoruz. 
 
@@ -343,7 +343,7 @@ Bu şekilde dosyalarımızı github repository imize yüklemiş oluyoruz. Dosya 
 
 bash terminal ile .gitignore dosyası oluşturalım : 
 
-![N|project_gitig1](https://i.im.ge/2022/08/31/OEA0Uc.git-ignore2.png)
+![N|project_gitig1](https://i.ibb.co/m6StJ1H/git-ignore2.png)
 
 **ls** ile dosyalarımızı listelediğimiz zaman token.txt adlı bir dosyayı görüyoruz. Bu dosyanın git tarafından göz ardı edilmesini istiyorum. Öncelikle .gitignore dosyamızı oluşturuyoruz
 
@@ -392,7 +392,7 @@ Master anadaldır. Sonrasında alt dallar yapıya eklenir. Daha sonra alt dallar
 
 Github repository veya bash shell üzerinden branch oluşturulur : 
 
-![N|project_branchcreate](https://i.im.ge/2022/08/31/OECweq.branch-olusturma.png)
+![N|project_branchcreate](https://i.ibb.co/DR3cSkD/branch-olu-turma.png)
 
 branch adı verilir ve "Create branch" butonuna basılarak branch oluşturulur. 
 
@@ -400,7 +400,7 @@ branch adı verilir ve "Create branch" butonuna basılarak branch oluşturulur.
 
 Şimdi oluşturduğumuz subbranch in içerisine github üzerinden bir dosya ekleyelim ve commit edelim : 
 
-![N|project_branchfilecreate](https://i.im.ge/2022/08/31/OEEqfm.sub-dosya-olusturma.png)
+![N|project_branchfilecreate](https://i.ibb.co/K9PR12f/sub-dosya-olu-turma.png)
 
 Şimdi subbranch üzerinde dosyamızı kontrol edelim : 
 
