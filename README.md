@@ -15,7 +15,7 @@ Makale içeriği,
 
 ## 2- Git İş Akışı :
 
-![N|Mimari](https://i.im.ge/2022/08/31/OElMv6.git-mimarisi.png)
+![N|Mimari](https://i.ibb.co/zxY2WLC/git-mimarisi.png)
 
 - Working Directory : Kendimize ait olan çalışma dizinidir (Dosya dizinimiz). 
 - Staging Area(Index Area) : Geçiş bölgesi, çalışma dizinimizden repositoriye aktaracağımız dosyalar için bir ara kontrol katmanıdır. Bu katman üzerinden belirli kontroller sağlanarak dosya bütünlüğü ve doğruluğu sağlanır. 
@@ -52,7 +52,7 @@ git config --global user.email
 ```
 komutlarını kullanabiliriz.
 
-![N|user_info](https://i.im.ge/2022/08/31/OEd52y.git-user-info.png)
+![N|user_info](https://i.ibb.co/ZGdKhmL/git-user-info.png)
 
 #### 4.2 - Git Projesi Oluşturma :
 
@@ -67,7 +67,7 @@ Git dosyaları klasör içerisinde gizli olarak tutulur. Gizli dosyaları görme
 Bu komutu girdikten sonra klasör içerisindeki .git dosyalarını görebilirsiniz. 
 ".git" klasörü içerisinde git ile alakalı dosyalar bulunur.
 
-![N|project_create](https://i.im.ge/2022/08/31/OEdZDP.git-proje-olusturma.png)
+![N|project_create](https://i.ibb.co/mTFhq1j/git-proje-olu-turma.png)
 
 #### 4.3 - Projeyi Git Deposuna Ekleme :
 
