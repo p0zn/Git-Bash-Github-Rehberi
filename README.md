@@ -105,7 +105,7 @@ git status
 komutu ile projede değişiklik olup olmadığı kontrolü yapılır. 
 **"nothing to commit,working tree clean"** çıktısı commit edilecek dosyamızın olmadığını bize belirtir.
 
-![N|project_clr](https://i.im.ge/2022/08/31/OEqfLK.temiz-proje.png)
+![N|project_clr](https://i.ibb.co/k2KkC1C/temiz-proje.png)
 
 Proje dosyamıza yeni dosyalar eklendiğinde **git status** komutu çıktı olarak commit edilmemiş dosyaları gösterir. 
 Projeye eklediğimiz yeni dosyaları **add** komutu ile ilk önce geçiş bölgesine daha sonra **commit** komutu ile git deposuna aktarıyoruz. Tekrar **git status** komutunu çalıştırınca commit edilecek dosya olmadığını görüyoruz. 
