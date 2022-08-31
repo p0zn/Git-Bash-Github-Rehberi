@@ -140,7 +140,7 @@ komutlarını giriyoruz. Daha sonra **git status** ve **git log** komutlarını 
 
 > Not: Dosya içerisinde silme işlemi yapıldığında terminalde çıktı olarak silinen alanlar **kırmızı** ve **"-"** işareti ile gösterilecektir. 
 
-![N|project_diff1](https://i.im.ge/2022/08/31/OE7sdx.git-dif-1.png)
+![N|project_diff1](https://i.ibb.co/C0bqsLV/git-dif-1.png)
 
 #### 4.7 - Proje Üzerinde Değişiklikleri Görme (Staging Area) :
 
