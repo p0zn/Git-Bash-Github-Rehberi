@@ -164,7 +164,7 @@ git rm hello.py
 ```
 komutunu kullanıyoruz. Daha sonra git deposuna silme işlemini bildirmek için tekrar **commit** işlemi uyguluyoruz. İşlemleri gerçekleştirdikten sonra **git status** komutunu yazarak her şeyin yolunda olduğunu kontrol ediyoruz. 
 
-![N|project_dell1](https://i.im.ge/2022/08/31/OELaPP.dell1.png)
+![N|project_dell1](https://i.ibb.co/gRJKxn8/dell1.png)
 
 ##### 4.8.2 - Komut İle Silme (Önerilen Yöntem) :
 
@@ -177,7 +177,7 @@ git rm hello.py
 
 **rm** komutu ile giriyoruz. Ardından commit ederek işlemimizi tamamlıyoruz. 
 
-![N|project_dell2](https://i.im.ge/2022/08/31/OEL53T.dell2.png)
+![N|project_dell2](https://i.ibb.co/K9z3Yjz/dell2.png)
 
 
 ##### 4.8.3 - BONUS - Klasör Silme :
@@ -205,7 +205,7 @@ git mv hello.py new_name.py
 
 komutunu kullanıyoruz. **mv** den sonra ismi değiştirilecek dosya ardından dosyanın yeni adı olacak şekilde komutumuzu yazıyoruz. Daha sonra commit işlemimizi yaparak git deposuna değişikliliği bildiriyoruz. 
 
-![N|project_change-name](https://i.im.ge/2022/08/31/OELJzP.isim-degistirme.png)
+![N|project_change-name](https://i.ibb.co/xfjxcrm/isim-de-i-tirme.png)
 
 
 ##### 4.9.2 - Dosya Taşıma :
@@ -227,7 +227,7 @@ git restore hello.py
 ```
 komutunu kullanarak dosyayı geri alalım. 
 
-![N|project_restore_workingarea](https://i.im.ge/2022/08/31/OEh70m.restore-work.png)
+![N|project_restore_workingarea](https://i.ibb.co/G97Ysgm/restore-work.png)
 
 Dosyayı geri aldık ve silinen sum_method() fonksiyonumuz da geri geldi. Böylelikle "Working Directory" üzerinde dosya kurtarma işlemini gerçekleştirdik. 
 
