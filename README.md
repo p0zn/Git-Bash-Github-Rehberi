@@ -270,7 +270,7 @@ Daha sonra değişikleri commit edelim ve **git log** ile versiyonlarımızı ko
 
 **git log** komutu ile version 1.0 ı görmüş olduk. Şimdi 2 version daha alalım ve senaryomuzu gerçekleştirelim. 
 
-![N|project_ver3](https://i.im.ge/2022/08/31/OE0wGS.ver-3.png)
+![N|project_ver3](https://i.ibb.co/dQPKh12/ver-3.png)
 
 **git log** komutunu kullanarak versiyonlarımızı kontrol edelim. 
 
@@ -290,22 +290,22 @@ komutu ile version 2.0 a dönüyoruz ("." işareti versiyondaki tüm dosyaları 
 
 Şimdi dosya içeriklerimizi tekrar kontrol edelim : 
 
-![N|project_ver5](https://i.im.ge/2022/08/31/OE0pcm.ver-5.png)
+![N|project_ver5](https://i.ibb.co/7vNW4xc/ver-5.png)
 
 Version 2.0 a geçiş yaptık : 
 
-![N|project_ver5](https://i.im.ge/2022/08/31/OE0n7W.ver-6.png)
+![N|project_ver5](https://i.ibb.co/26h9fYP/ver-6.png)
 
 Görüldüğü gibi dosya içeriğimiz artık version 2.0 a dönmüş oldu. Bu şekilde projedeki versiyonlar arasında geçiş yapabiliriz.
 
 #### 4.12 - Github'a Dosya Gönderme :
 Sıra oluşturduğumuz projeleri github repositorymize göndermede. İlk önce github üzerinden yeni bir repository oluşturuyoruz. 
 
-![N|project_gitrepo](https://i.im.ge/2022/08/31/OE5SSF.repo-olusturma.png)
+![N|project_gitrepo](https://i.ibb.co/wr8874Z/repo-olu-turma.png)
 
 Daha sonra repository bağlantı linkimizi alıyoruz : 
 
-![N|project_gitrepolink](https://i.im.ge/2022/08/31/OE5708.githubrepolink.png)
+![N|project_gitrepolink](https://i.ibb.co/GFNqGWB/githubrepolink.png)
 
 Şimdi git ile github repository arasındaki bağlantıyı oluşturalım :
 
@@ -364,7 +364,7 @@ Dosya üzerinde değişikilik yaptığımız için proje tekrar repository e pus
 
 Şimdi github repository imizde token.txt dosyası gözüküyor mu kontrol edelim : 
 
-![N|project_gitig2](https://i.im.ge/2022/08/31/OEAR1M.gitignore1.png)
+![N|project_gitig2](https://i.ibb.co/smwd133/gitignore1.png)
 
 Görüldüğü gibi diğer dosyalarımız gösterilirken token.txt dosyası gösterilmiyor. 
 
@@ -404,11 +404,11 @@ branch adı verilir ve "Create branch" butonuna basılarak branch oluşturulur.
 
 Şimdi subbranch üzerinde dosyamızı kontrol edelim : 
 
-![N|project_branchfilecheck](https://i.im.ge/2022/08/31/OEEK3q.sub-uzerinde-dosya.png)
+![N|project_branchfilecheck](https://i.ibb.co/C2jR15v/sub-zerinde-dosya.png)
 
 Gördüğünüz gibi oluşturduğumuz "file_4.txt" dosyası subbranch e eklenmiş. Peki bu dosya master dalında bulunuyor mu kontrol edelim : 
 
-![N|project_branchfilecheckmaster](https://i.im.ge/2022/08/31/OEEkqP.masterda-sub-dosyasi-yok.png)
+![N|project_branchfilecheckmaster](https://i.ibb.co/TMCQtzD/masterda-sub-dosyas-yok.png)
 
 Gördüğünüz gibi master dalında dosyamız **yok**. Çünkü biz dosyamızı subbranch üzerinde oluşturduk. 
 
@@ -416,19 +416,19 @@ Gördüğünüz gibi master dalında dosyamız **yok**. Çünkü biz dosyamızı
 
 github repository > branches > All branches yoluna gidelim. 
 
-![N|project_branchfilemerge1](https://i.im.ge/2022/08/31/OExTqG.branch-birlestirme.png)
+![N|project_branchfilemerge1](https://i.ibb.co/P4smQ4M/branch-birle-tirme.png)
 
 subbranch imizin yanında bulunan "New pull request" butonuna tıklıyoruz. 
 
 Ardından açılan sayfada branchlerimizin birleştirmeye uygun olduğunu gösteren "Able to merge" ifadesi ile karşılaşıyoruz. 
 
-![N|project_branchfilemerge2](https://i.im.ge/2022/08/31/OExujy.merge1.png)
+![N|project_branchfilemerge2](https://i.ibb.co/4j5w0yS/merge1.png)
 
 Yorum kısmına isterseniz açıklama yapabilirsiniz. 
 
 Sayfanın en altında branchler arasındaki dosya farklılıklarını gösteren kısım bulunuyor. Bu kısımdan branchlerin birbiri üzerindeki dosya farklılığını görebilirsiniz : 
 
-![N|project_branchfilemerge3](https://i.im.ge/2022/08/31/OEx1Tz.merge2.png)
+![N|project_branchfilemerge3](https://i.ibb.co/x11mQqr/merge2.png)
 
 Daha sonra **"Create pull request"** butonuna tıklıyoruz. 
 
@@ -437,13 +437,13 @@ Tartışma sayfasına yönlendiriliyoruz. Bu sayfa üzerinden kendi geliştirici
 Branchleri birleştirmek için artık son adıma geldik : 
 **"Merge pull request"** butonuna tıklıyoruz : 
 
-![N|project_branchfilemerge4](https://i.im.ge/2022/08/31/OExLmM.issue-page-marge.png)
+![N|project_branchfilemerge4](https://i.ibb.co/XprHXZ5/issue-page-marge.png)
 
 Ve artık dallarımız master dalında birleştirilmiş oldu. 
 
 Şimdi "Working Directory" üzerindeki dosyalarımıza bakalım : 
 
-![N|project_branchfilemerge5](https://i.im.ge/2022/08/31/OExtmm.workmer1.png)
+![N|project_branchfilemerge5](https://i.ibb.co/pvy3hbG/workmer1.png)
 
 Subbranch üzerindeki dosyamız bu dizinde yok. 
 
@@ -455,11 +455,11 @@ git pull
 
 komutunu yazarak github üzerindeki dosyaları çekmek. Şimdi tekrar kontrol edelim : 
 
-![N|project_branchfilemerge6](https://i.im.ge/2022/08/31/OExyZr.pulll.png)
+![N|project_branchfilemerge6](https://i.ibb.co/02fZqg4/pulll.png)
 
 Dosyalarımızı çektik. Şimdi "Working Directory" i kontrol edelim : 
 
-![N|project_branchfilemerge7](https://i.im.ge/2022/08/31/OExxbT.workiing-merge-pulled.png)
+![N|project_branchfilemerge7](https://i.ibb.co/c2vLw8b/workiing-merge-pulled.png)
 
 Ve subbranch üzerindeki dosyamızda "Working Directory" üzerine eklendi. Böylelikle branchleri birleştirmeyi görmüş olduk. 
 
